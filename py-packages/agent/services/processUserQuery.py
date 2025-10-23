@@ -1,13 +1,12 @@
-from calendar import prmonth
 from dotenv import load_dotenv
 from openai import OpenAI
-from ..template.agentTemplate import system_prompt
-from ..template.toolsTemplate import TOOLS
 import json
-from ..tools.tools import get_pull_requests_by_author, get_pr_review_comments, get_issues_assigned_to_me
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
+from agent.template.agentTemplate import system_prompt
+from agent.template.toolsTemplate import TOOLS
+from agent.tools.tools import get_pull_requests_by_author, get_pr_review_comments, get_issues_assigned_to_me
 from cli.session.SessionManager import session
 import traceback
 
