@@ -35,10 +35,10 @@ SUCCESS_AUTHENTICATED = "Successfully authenticated as {username}"
 SUCCESS_SESSION_SAVED = "Session configured and saved!"
 
 # UI Messages
-PROMPT_ORG = "🏢 Enter your GitHub organization name"
-PROMPT_USERNAME = "👤 Enter your GitHub username"
-PROMPT_PAT = "🔐 Enter your GitHub PAT"
-PROMPT_QUERY = "💬 Ask your Query (or type 'exit' to quit)"
+PROMPT_ORG = "Enter your GitHub organization name"
+PROMPT_USERNAME = "Enter your GitHub username"
+PROMPT_PAT = "Enter your GitHub PAT"
+PROMPT_QUERY = "Ask your Query (or type 'exit' to quit)"
 
 # Status Messages
 STATUS_SUCCESS = "success"

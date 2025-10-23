@@ -1,5 +1,8 @@
 import click
 import requests
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
 from agent.services.processUserQuery import GitHubAIAgent
 from rich.console import Console
 from rich.panel import Panel
@@ -7,7 +10,6 @@ from rich.markdown import Markdown
 from ..session.SessionManager import session
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
 from constants.constants import (
     GITHUB_USER_ENDPOINT, AUTH_BEARER_PREFIX, AUTH_TOKEN_PREFIX,
     HTTP_OK, HTTP_UNAUTHORIZED, HTTP_FORBIDDEN, HTTP_NOT_FOUND,
