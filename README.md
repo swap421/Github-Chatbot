@@ -1,4 +1,4 @@
-# GitHub Chatbot CLI
+# GitHub Chatbot CLI 
 
 A powerful CLI tool for interacting with GitHub using AI. Get insights about your pull requests, issues, and repository status through natural language queries.
 
